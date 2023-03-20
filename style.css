@@ -19,7 +19,6 @@ img {
     align-items: center;
     gap: 4.5rem;
     font-family: 'Open Sans', sans-serif;
-    border: 1px solid black;
     height: 100vh;
     max-width: 500px;
     margin: 0 auto;
@@ -122,6 +121,7 @@ img {
     color: #ffffff;
     font-weight: 700;
     border-radius: 35px;
+    cursor: pointer;
 }
 
 .no-password{
@@ -140,6 +140,7 @@ img {
     font-weight: 700;
     border-radius: 35px;
     border: 1px solid black;
+    cursor: pointer;
 }
 
 .end-content .quiestion{
@@ -150,4 +151,27 @@ img {
 .end-content .quiestion a {
     text-decoration: none;
     color: #51B2F3;
+}
+
+.apple-sign:hover {
+    background-color: #eeeeee50;
+}
+
+.google-sign:hover {
+    background-color: #eeeeee50;
+}
+
+input:focus {
+    background-color: rgb(243, 243, 243);
+    border: none;
+    border: solid 1px #f3f3f4;
+    box-shadow: 0 0 4px #c9c9c94f;
+}
+
+.password:hover {
+    background-color: #f8f8f8;
+}
+
+.end-content .quiestion a:hover {
+    text-decoration:underline;
 }
